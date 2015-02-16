@@ -4,18 +4,18 @@ sources docker's-like env file and starts a new shell
 ### Example
 
 ```
-cat > .env-test <<EOF
+$ cat > .env-test <<EOF
 DATABASE_URL=http://localhost:5984/
 PORT=3000
 EOF
 ```
 
 ```bash
-sex .env-test
+$ sex .env-test
 ```
 
 ```bash
-~$ echo $DATABASE_URL
+$ echo $DATABASE_URL
 http://localhost:5984/
 ```
 
