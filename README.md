@@ -3,11 +3,11 @@ sources docker's-like env file and starts a new shell
 
 ### Example
 
-**.env-test**
-
 ```
+cat > .env-test <<EOF
 DATABASE_URL=http://localhost:5984/
 PORT=3000
+EOF
 ```
 
 ```bash
