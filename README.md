@@ -6,5 +6,5 @@ sources docker's-like env file and starts a new shell
 ```bash
 curl https://raw.githubusercontent.com/plasticpanda/sex/master/sex.sh > sex.sh
 chmod +x sex.sh
-sudo cp -v sex.sh /usr/bin/sex
+sudo mv -v sex.sh /usr/bin/sex
 ```
