@@ -14,6 +14,12 @@ PORT=3000
 sex .env-test
 ```
 
+```bash
+~$ echo $DATABASE_URL
+http://localhost:5984/
+```
+
+
 ## Install
 
 ```bash
